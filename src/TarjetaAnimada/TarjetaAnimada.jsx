@@ -1,5 +1,5 @@
 import React from "react";
 
 export const TarjetaAnimada = () => {
-  return <div>TarjetaAnimada</div>;
+  return <div className="box">TarjetaAnimada</div>;
 };
