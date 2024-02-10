@@ -1,5 +1,10 @@
 import React from "react";
+import "./TarjetaAnimada.css";
 
 export const TarjetaAnimada = () => {
-  return <div className="box">TarjetaAnimada</div>;
+  return (
+    <div className="box">
+      <span></span>
+    </div>
+  );
 };
