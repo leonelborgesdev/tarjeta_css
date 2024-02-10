@@ -41,9 +41,16 @@ body{
     border-radius: 16px;
     z-index: 1;
 }
-
+@property --a{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
 @keyframes rotating {
     0%{
-
+        --a: 0deg;
+    }
+    100%{
+        --a: 360deg;
     }
 }
