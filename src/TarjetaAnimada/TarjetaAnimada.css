@@ -8,4 +8,10 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: #222;
+}
+.box{
+    position: relative;
+    width: 400px;
+    height: 300px;
 }
