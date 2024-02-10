@@ -15,3 +15,13 @@ body{
     width: 400px;
     height: 300px;
 }
+.box::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(from 0def, #0f0, #ff0,#0ff,#f0f,#0ff);
+    border-radius: 20px;
+    animation: rotating 4s linear infinite;
+    filter: blur(40px);
+    opacity: 0.75;
+}
